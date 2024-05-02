@@ -5,7 +5,7 @@ import { stringify, getTag } from './utils'
 
 let outputDir = './docs/data/'
 
-let githubSrcUrl = 'https://github.com/smartprocure/futil-js/blob/master/src/'
+let githubSrcUrl = 'https://github.com/futil-js/futil-js/blob/master/src/'
 
 let getNameFromDoc = _.flow(
   _.get('longname'),
@@ -49,7 +49,7 @@ let getDocs = async () => {
         source,
         lineCount,
         lineno: x.meta.lineno,
-        // https://github.com/smartprocure/futil-js/blob/master/src/array.js#L20-L25
+        // https://github.com/futil-js/futil-js/blob/master/src/array.js#L20-L25
         link: `${githubSrcUrl}${x.meta.filename}#L${x.meta.lineno}${
           lineCount === 1 ? '' : `-L${x.meta.lineno + lineCount - 1}`
         }`,
