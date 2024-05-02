@@ -39,7 +39,7 @@
   },
   "author": {
     "name": "Samuel Greene",
-    "email": "sgreene@smartprocure.us"
+    "email": "sam@samuelgreene.info"
   },
   "license": "MIT",
   "dependencies": {
@@ -119,12 +119,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/smartprocure/futil-js.git"
+    "url": "git+ssh://git@github.com/futil-js/futil-js.git"
   },
   "bugs": {
-    "url": "https://github.com/smartprocure/futil-js/issues"
+    "url": "https://github.com/futil-js/futil-js/issues"
   },
-  "homepage": "https://github.com/smartprocure/futil-js#readme",
+  "homepage": "https://github.com/futil-js/futil-js#readme",
   "runkitExampleFilename": "runkit.example.js",
   "readme": "README.md",
   "packageManager": "yarn@3.6.0"
